@@ -95,7 +95,9 @@ const Portfolio = () => {
         damping: 30,
     })
     return (
-        <div className="portfolio" ref={ref}>
+        <div
+            id="Portfolio"
+            className="portfolio" ref={ref}>
             <div className="progress">
                 <h1>Projects</h1>
                 <motion.div style={{ scaleX }} className="progressBar"></motion.div>

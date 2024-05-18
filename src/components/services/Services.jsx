@@ -26,6 +26,7 @@ const Services = () => {
 
     return (
         <motion.div
+            id="Services"
             className="services"
             variants={variants}
             initial="initial"
