@@ -1,11 +1,11 @@
 @import "../../app.scss";
 
 .services {
-    background-color: linear-gradient(180deg, #0c0c1d, #111132);
+    background: linear-gradient(180deg, #111e32, #0c141d);
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 
     .textContainer {
         flex: 1;
@@ -15,17 +15,18 @@
         gap: 20px;
 
         @include mobile {
-            align-self: center;
-            text-align: center;
-            flex-direction: column;
+            // align-self: center;
+            // text-align: center;
+            // flex-direction: column;
+            display: none;
         }
 
-        p {
-            font-weight: 200;
-            font-size: 20px;
-            color: gray;
-            text-align: right;
-        }
+        // p {
+        //     font-weight: 200;
+        //     font-size: 20px;
+        //     color: gray;
+        //     text-align: right;
+        // }
 
         hr {
             width: 500px;
@@ -44,8 +45,10 @@
         flex-direction: column;
         align-items: center;
 
+
         @include mobile {
             width: 100%;
+            justify-content: center;
         }
 
         .title {
@@ -80,69 +83,34 @@
                 }
             }
 
-            button {
-                width: 300px;
-                height: 100px;
-                border-radius: 50px;
-                background-color: orange;
-                border: none;
-                font-size: 24px;
-                cursor: pointer;
-
-                @include mobile {
-                    font-size: 16px;
-                    width: 150px;
-                    height: 50px;
-                }
-            }
         }
     }
 
     .listContainer {
-        flex: 2;
+        flex: 3;
         display: flex;
         max-width: 1366px;
         margin: auto;
 
         @include mobile {
             flex-direction: column;
-            width: 100%;
+            width: 80%;
         }
 
         .box {
             padding: 50px;
-            border: 0.5px solid gray;
             display: flex;
             flex-direction: column;
             justify-content: space-between;
+            font-size: 16px;
+            text-align: justify;
+            line-height: 1.4;
 
             @include mobile {
                 border: none;
                 align-items: center;
-                gap: 20px;
                 padding: 10px;
-            }
-
-            p {
-                @include mobile {
-                    display: none;
-                }
-            }
-
-            button {
-                padding: 10px;
-                background-color: orange;
-                border: none;
-                cursor: pointer;
-
-                @include mobile {
-                    background-color: transparent;
-                    border: 1px solid orange;
-                    border-radius: 5px;
-                    color: orange;
-                    width: 50%;
-                    padding: 5px;
-                }
+                font-size: 12px;
             }
         }
     }

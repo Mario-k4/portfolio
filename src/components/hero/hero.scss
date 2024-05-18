@@ -3,7 +3,7 @@
 .hero {
     height: calc(100vh - 100px);
     overflow: hidden;
-    background-color: linear-gradient(180deg, #0c0c1d, #111132);
+    background: linear-gradient(180deg, #0c141d, #111e32);
     position: relative;
 
     .wrapper {
@@ -29,7 +29,7 @@
 
             h2 {
                 font-size: 30px;
-                color: rebeccapurple;
+                color: orange;
                 letter-spacing: 10px;
             }
 
@@ -90,6 +90,6 @@
         color: #ffffff09;
         width: 50%;
         font-weight: bold;
-        z-index: -1;
+        z-index: 1;
     }
 }

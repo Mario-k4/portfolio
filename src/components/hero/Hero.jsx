@@ -50,7 +50,7 @@ const Hero = ({ portfolioRef, contactRef }) => {
             <div className="wrapper">
                 <motion.div className="textContainer" variants={textVariants} initial="initial" animate="animate">
                     <motion.h2 variants={textVariants}>MARIO CVETANOSKI</motion.h2>
-                    <motion.h1 variants={textVariants}>Web Developer and Designer</motion.h1>
+                    <motion.h1 variants={textVariants}>Front-end Web Developer</motion.h1>
                     <motion.div variants={textVariants} className="buttons">
                         <motion.button whileHover={{ scale: "1.08" }} variants={textVariants} onClick={() => scrollToSection(portfolioRef)}>See the latest work</motion.button>
                         <motion.button whileHover={{ scale: "1.08" }} variants={textVariants} onClick={() => scrollToSection(contactRef)}>Contact Me</motion.button>
