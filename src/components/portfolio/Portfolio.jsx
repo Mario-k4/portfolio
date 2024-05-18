@@ -12,7 +12,8 @@ const items = [
             html: "Structured the content of the website, ensuring a clean and semantic layout.",
             css: "Styled the website to create a visually appealing and consistent look across different devices.",
             react: "Built interactive and dynamic components, ensuring smooth and efficient performance."
-        }
+        },
+        url: "https://bearpong-github-io.vercel.app/"
 
     },
     {
@@ -74,7 +75,9 @@ const Single = ({ item }) => {
                                 {item.tech.axios && <p><span>Axios: </span>{item.tech.axios}</p>}
                             </div>
                         )}
-                        <motion.button whileHover={{ scale: "1.1" }}>See Demo</motion.button>
+                        <motion.button whileHover={{ scale: "1.1" }}>
+                            <a href={item.url} target="_blank" rel="noopener noreferrer">See Demo</a>
+                        </motion.button>
                     </motion.div>
                 </div>
             </div>
