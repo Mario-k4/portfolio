@@ -26,7 +26,8 @@ const items = [
             css: "Applied styles to create a visually appealing and cohesive design.",
             react: "Built the front-end components, enabling efficient state management and rendering.",
             axios: "Facilitated HTTP requests to interact with the backend API."
-        }
+        },
+        url: "https://social-media-six-eosin.vercel.app/"
     },
     {
         id: 3,
