@@ -5,6 +5,7 @@
     overflow: hidden;
     background: linear-gradient(180deg, #0c141d, #111e32);
     position: relative;
+    z-index: 998;
 
     .wrapper {
         max-width: 1366px;
@@ -90,6 +91,6 @@
         color: #ffffff09;
         width: 50%;
         font-weight: bold;
-        z-index: 1;
+        z-index: -1;
     }
 }

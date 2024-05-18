@@ -49,7 +49,7 @@ const Links = ({ setOpen }) => {
                 >
                     {item}
                 </motion.a>
-            ))};
+            ))}
         </motion.div>
     )
 }
