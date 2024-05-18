@@ -8,12 +8,12 @@ const items = [
         title: "Bearpong",
         img: "assets/Bearpong.png",
         desc: "Bearpong is an innovative project aimed at developing an alternative cryptocurrency. The goal of this project is to explore new possibilities in the world of digital currency, providing a secure, efficient, and user-friendly platform.",
+        url: "https://bearpong-github-io.vercel.app/",
         tech: {
             html: "Structured the content of the website, ensuring a clean and semantic layout.",
             css: "Styled the website to create a visually appealing and consistent look across different devices.",
             react: "Built interactive and dynamic components, ensuring smooth and efficient performance."
         },
-        url: "https://bearpong-github-io.vercel.app/"
 
     },
     {
@@ -21,19 +21,20 @@ const items = [
         title: "Social Media Clone",
         img: "assets/social-media.png",
         desc: "Social Media Clone is a web application designed to mimic the core functionalities of a popular social media platform. This project demonstrates my ability to build interactive and dynamic user interfaces using modern web development technologies.",
+        url: "https://social-media-git-main-mario-k4s-projects.vercel.app/",
         tech: {
             html: "Structured the web pages to ensure a well-organized content layout.",
             css: "Applied styles to create a visually appealing and cohesive design.",
             react: "Built the front-end components, enabling efficient state management and rendering.",
             axios: "Facilitated HTTP requests to interact with the backend API."
-        },
-        url: "https://social-media-six-eosin.vercel.app/"
+        }
     },
     {
         id: 3,
         title: "Rick and Morty API",
         img: "assets/rickandmorty.png",
         desc: "Rick and Morty API Site is a web application that integrates with an existing Rick and Morty API, allowing users to explore characters, locations, and episodes from the popular TV show.",
+        url: "https://bearpong-github-io.vercel.app/",
         tech: {
             html: "Structured the web pages to ensure a well-organized content layout.",
             css: "Applied styles to create a visually appealing and cohesive design.",
