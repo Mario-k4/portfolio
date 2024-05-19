@@ -2,6 +2,7 @@ import { useRef } from "react";
 import "./services.scss";
 import { motion, useInView } from "framer-motion";
 
+
 const variants = {
     initial: {
         x: -500,
@@ -45,7 +46,7 @@ const Services = () => {
             <motion.div className="titleContainer" variants={variants}>
                 <div className="title">
                     <h1>
-                        <motion.b whileHover={{ color: "orange" }}>Who</motion.b> am i ?
+                        <motion.b whileHover={{ color: "orange" }}><i>WHO</i></motion.b> <i>AM I ?</i>
                     </h1>
                 </div>
             </motion.div>
@@ -55,7 +56,7 @@ const Services = () => {
                 >
                     <h2>Hi! I'm Mario, a passionate Front-End Developer and Designer. With a keen eye for detail and a love for creating intuitive, user-friendly interfaces, I strive to bring innovative ideas to life through code and design.
                         When I'm not immersed in the world of web development, you can find me hitting the slopes on my snowboard or diving into thrilling online games. My trusty companion, Loki, a lively and loyal dog, is always by my side, adding joy and adventure to my life.
-                        Whether it's building sleek websites, exploring new design trends, or enjoying my hobbies, I bring enthusiasm and creativity to everything I do.Let's create something amazing together!</h2>
+                        Whether it's building sleek websites, exploring new design trends, or enjoying my hobbies, I bring enthusiasm and creativity to everything I do. Let's create something amazing together!</h2>
                 </motion.div>
 
             </motion.div>
