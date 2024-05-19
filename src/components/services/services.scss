@@ -105,11 +105,28 @@
         .box {
             padding: 50px;
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
             justify-content: space-between;
             font-size: 14px;
-            text-align: justify;
             line-height: 1.6;
+            align-items: center;
+
+            .boxText {
+                width: 50%;
+                text-align: justify;
+                text-indent: 50px;
+            }
+
+            .boxImg {
+                object-fit: cover;
+                width: 50%;
+                display: flex;
+                justify-content: flex-end;
+
+                img {
+                    height: 600px;
+                }
+            }
 
             @include mobile {
                 border: none;

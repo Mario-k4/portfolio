@@ -27,7 +27,7 @@ const itemVariants = {
 const Links = ({ setOpen }) => {
     const items = [
         "Homepage",
-        "Services",
+        "About",
         "Portfolio",
         "Contact",
     ];
