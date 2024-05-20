@@ -66,13 +66,14 @@
         height: 100%;
         position: absolute;
         top: 0;
-        right: 0;
+        right: 150px;
 
         @include mobile {
             height: 50%;
             width: 100%;
             top: unset;
             bottom: 0;
+            right: 0;
         }
 
         img {

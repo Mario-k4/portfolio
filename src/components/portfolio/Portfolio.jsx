@@ -91,6 +91,7 @@ const Single = ({ item }) => {
                             <div>
                                 {item.tech.html && <p><span>HTML: </span>{item.tech.html}</p>}
                                 {item.tech.css && <p><span>CSS: </span>{item.tech.css}</p>}
+                                {item.tech.js && <p><span>Javascript: </span>{item.tech.js}</p>}
                                 {item.tech.react && <p><span>React: </span>{item.tech.react}</p>}
                                 {item.tech.ejs && <p><span>EJS: </span>{item.tech.ejs}</p>}
                                 {item.tech.node && <p><span>Node: </span>{item.tech.node}</p>}
