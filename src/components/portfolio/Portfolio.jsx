@@ -13,6 +13,7 @@ const items = [
         tech: {
             html: "Structured the content of the website, ensuring a clean and semantic layout.",
             css: "Styled the website to create a visually appealing and consistent look across different devices.",
+            js: "Implemented interactive features and dynamic content rendering.",
             react: "Built interactive and dynamic components, ensuring smooth and efficient performance."
         },
 
@@ -27,6 +28,7 @@ const items = [
         tech: {
             html: "Structured the web pages to ensure a well-organized content layout.",
             css: "Applied styles to create a visually appealing and cohesive design.",
+            js: "Implemented interactive features and dynamic content rendering.",
             react: "Built the front-end components, enabling efficient state management and rendering.",
             axios: "Facilitated HTTP requests to interact with the backend API."
         }
@@ -41,6 +43,7 @@ const items = [
         tech: {
             html: "Structured the web pages to ensure a well-organized content layout.",
             css: "Applied styles to create a visually appealing and cohesive design.",
+            js: "Implemented interactive features and dynamic content rendering.",
             ejs: "Used Embedded JavaScript templating to generate HTML markup with dynamic data.",
             node: "Developed the server-side logic to handle API requests and responses.",
             express: "Set up the web server and managed routing for different endpoints.",
@@ -57,6 +60,7 @@ const items = [
         tech: {
             html: "Structured the web pages to ensure a well-organized content layout.",
             css: "Applied styles to create a visually appealing and cohesive design.",
+            js: "Implemented interactive features and dynamic content rendering.",
             bootstrap: "Enhances the responsiveness and overall design, ensuring the site looks great on any device.",
             vue: "Powers the interactive elements, providing a seamless and dynamic user experience."
         }

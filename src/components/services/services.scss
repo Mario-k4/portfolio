@@ -110,6 +110,13 @@
             line-height: 1.6;
             align-items: center;
 
+            @include mobile {
+                align-items: center;
+                padding: 10px;
+                margin: 30px 0;
+                flex-direction: column;
+            }
+
 
             .boxText {
                 width: 50%;
@@ -124,19 +131,23 @@
                 display: flex;
                 justify-content: flex-end;
 
+                @include mobile {
+                    display: none;
+                }
+
                 img {
                     height: 600px;
                 }
+
+                @include mobile {
+                    border: none;
+                    align-items: center;
+                    padding: 10px;
+                    font-size: 12px;
+                    margin-bottom: 15px;
+                }
             }
 
-
-            @include mobile {
-                border: none;
-                align-items: center;
-                padding: 10px;
-                font-size: 12px;
-                margin-bottom: 15px;
-            }
         }
 
     }
