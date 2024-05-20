@@ -107,14 +107,15 @@
             display: flex;
             flex-direction: row;
             justify-content: space-between;
-            font-size: 14px;
             line-height: 1.6;
             align-items: center;
+
 
             .boxText {
                 width: 50%;
                 text-align: justify;
                 text-indent: 50px;
+                font-size: 12px;
             }
 
             .boxImg {
@@ -128,6 +129,7 @@
                 }
             }
 
+
             @include mobile {
                 border: none;
                 align-items: center;
@@ -136,5 +138,6 @@
                 margin-bottom: 15px;
             }
         }
+
     }
 }

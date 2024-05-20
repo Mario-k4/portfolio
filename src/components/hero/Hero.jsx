@@ -52,8 +52,8 @@ const Hero = ({ portfolioRef, contactRef }) => {
                     <motion.h2 variants={textVariants}>MARIO CVETANOSKI</motion.h2>
                     <motion.h1 variants={textVariants}>Front-end Web Developer</motion.h1>
                     <motion.div variants={textVariants} className="buttons">
-                        <motion.button whileHover={{ scale: "1.08" }} variants={textVariants} onClick={() => scrollToSection(portfolioRef)}>See the latest work</motion.button>
-                        <motion.button whileHover={{ scale: "1.08" }} variants={textVariants} onClick={() => scrollToSection(contactRef)}>Contact Me</motion.button>
+                        <motion.button whileHover={{ color: "#0c141d", background: "white" }} variants={textVariants} onClick={() => scrollToSection(portfolioRef)}>See the latest work</motion.button>
+                        <motion.button whileHover={{ color: "#0c141d", background: "white" }} variants={textVariants} onClick={() => scrollToSection(contactRef)}>Contact Me</motion.button>
                     </motion.div>
                     <motion.img variants={textVariants} animate="scrollButton" src="assets/scroll.png" alt="" />
                 </motion.div>
@@ -61,7 +61,7 @@ const Hero = ({ portfolioRef, contactRef }) => {
                     Front End Web Developer Web Designer
                 </motion.div>
                 <div className="imgContainer">
-                    <img src="assets/hero.png" alt="" />
+                    <img src="/assets/herocopy.png" alt="" />
                 </div>
             </div>
         </div>
