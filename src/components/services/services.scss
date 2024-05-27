@@ -8,6 +8,12 @@
     flex-direction: column;
     justify-content: space-around;
 
+    @include mobile {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
     .textContainer {
         flex: 1;
         align-self: flex-end;
@@ -99,7 +105,6 @@
 
         @include mobile {
             flex-direction: column;
-            width: 80%;
         }
 
         .box {
@@ -123,6 +128,12 @@
                 text-align: justify;
                 text-indent: 50px;
                 font-size: 12px;
+
+                @include mobile {
+                    text-align: start;
+                    width: 80%;
+                }
+
             }
 
             .boxImg {

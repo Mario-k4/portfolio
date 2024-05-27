@@ -57,7 +57,7 @@ const Services = () => {
                 variants={variants}
                 initial="initial"
                 ref={ref}
-                animate={isInView && "animate"}>
+                animate={"animate"}>
                 <motion.div
                     className="box"
                 >
